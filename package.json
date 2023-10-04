@@ -1,0 +1,21 @@
+{
+  "name": "cucumber2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "docs": "Pickles --output-directory=./documentation --feature-directory=./cypress/e2e",
+    "open": "cypress open"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/webpack-preprocessor": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "cypress": "latest"
+  }
+}
